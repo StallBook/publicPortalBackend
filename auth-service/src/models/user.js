@@ -11,4 +11,4 @@ const userSchema = new mongoose.Schema({
 
 userSchema.plugin(AutoIncrement, { inx_field: 'userID' });
 
-export default mongoose.model("user", userSchema);
+export default mongoose.model("User", userSchema);
